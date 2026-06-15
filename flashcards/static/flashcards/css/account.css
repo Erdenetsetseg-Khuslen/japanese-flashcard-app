@@ -1,0 +1,419 @@
+/* ================= BODY ================= */
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#f3f4f8;
+}
+
+
+/* ================= TITLE ================= */
+
+.page-title{
+    text-align:center;
+    margin:40px 0 30px;
+    font-size:32px;
+    font-weight:700;
+}
+
+
+/* ================= MAIN LAYOUT ================= */
+
+.account-container{
+    display:flex;
+    gap:40px;
+    justify-content:center;
+    align-items:flex-start;
+    padding:0 40px 60px;
+}
+
+
+/* ================= PROFILE CARD ================= */
+
+.profile-card{
+    width:280px;
+    background:white;
+    padding:30px 25px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+/* avatar */
+
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+
+/* name */
+
+.profile-card h3{
+    margin:10px 0 5px;
+}
+
+.profile-card p{
+    margin:5px 0;
+    color:#666;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.edit-btn,
+.save-btn,
+.back-btn{
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:600;
+    transition:0.25s;
+}
+
+
+/* edit */
+
+.edit-btn{
+    margin-top:12px;
+    background:#e7e9ff;
+    color:#4b52d1;
+}
+
+.edit-btn:hover{
+    background:#4b52d1;
+    color:white;
+}
+
+
+/* save */
+
+.save-btn{
+    margin-top:15px;
+    background:linear-gradient(45deg,#6c63ff,#b16cea);
+    color:white;
+}
+
+.save-btn:hover{
+    transform:scale(1.05);
+}
+
+
+/* back */
+
+.back-btn{
+    display:inline-block;
+    margin-top:25px;
+    background:linear-gradient(45deg,#6c63ff,#b16cea);
+    color:white;
+    text-decoration:none;
+}
+
+
+/* ================= EDIT FORM ================= */
+
+#editForm{
+    margin-top:20px;
+    text-align:left;
+}
+
+#editForm label{
+    display:block;
+    margin-top:12px;
+    font-weight:600;
+    font-size:14px;
+}
+
+#editForm input,
+#editForm textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    font-size:14px;
+}
+
+#editForm textarea{
+    resize:none;
+    height:80px;
+}
+
+
+/* ============================= */
+/* RIGHT CONTENT */
+/* ============================= */
+
+.content{
+    flex:1;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ============================= */
+/* TOP CATEGORY TABS */
+/* ============================= */
+
+.top-tabs{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.tab-btn{
+    padding:14px 35px;
+    border:none;
+    border-radius:14px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    background:#e5e7eb;
+    transition:0.25s;
+}
+
+.tab-btn:hover{
+    background:#d1d5db;
+}
+
+.tab-btn.active{
+    background:#6366f1;
+    color:white;
+}
+
+/* ============================= */
+/* TAB CONTENT */
+/* ============================= */
+
+.tab-content{
+    display:none;
+}
+
+.tab-content.active{
+    display:block;
+}
+
+/* ============================= */
+/* JLPT LEVEL HEADER */
+/* ============================= */
+
+.level-title{
+    cursor:pointer;
+    padding:15px 18px;
+    background:#f3f4f6;
+    border-radius:12px;
+    margin-top:18px;
+    font-weight:600;
+    transition:0.2s;
+}
+
+.level-title:hover{
+    background:#e5e7eb;
+}
+
+/* ============================= */
+/* LEVEL ACCORDION (smooth) */
+/* ============================= */
+
+.level-content{
+    display:grid; /* 🔥 энэ байх ёстой */
+    grid-template-columns: repeat(auto-fill, minmax(110px,1fr));
+    gap:15px;
+
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.35s ease;
+}
+
+.level-content.open{
+    max-height:800px; /* large enough */
+}
+
+/* ============================= */
+/* CARD GRID */
+/* ============================= */
+
+.kanji-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(90px,1fr));
+    gap:15px;
+}
+
+/* ============================= */
+/* FLIP CARD */
+/* ============================= */
+
+.saved-card{
+    width:90px;
+    height:90px;
+    perspective:1000px;
+    cursor:pointer;
+}
+
+.saved-card .inner{
+    position:relative;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:transform 0.5s;
+}
+
+.saved-card.flipped .inner{
+    transform:rotateY(180deg);
+}
+
+.saved-card .front,
+.saved-card .back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:12px;
+    backface-visibility:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* front (kanji / grammar) */
+.saved-card .front{
+    font-size:26px;
+    font-weight:600;
+}
+
+/* back (meaning) */
+.saved-card .back{
+    transform:rotateY(180deg);
+    font-size:13px;
+    padding:6px;
+    flex-direction:column;
+}
+
+/* ============================= */
+/* GRAMMAR SMALLER TEXT */
+/* ============================= */
+
+.grammar-card .front{
+    font-size:20px;
+    font-weight:500;
+}
+
+.grammar-card .back{
+    font-size:13px;
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.save-btn{
+    margin-top:10px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:6px 14px;
+    border-radius:15px;
+    cursor:pointer;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 20px;
+    background:linear-gradient(135deg,#6C63FF,#c46cde);
+    color:white;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.back-btn:hover{
+    transform:translateY(-2px);
+}
+
+/* ============================= */
+/* SAVED CONVERSATIONS */
+/* ============================= */
+
+.saved-conversations{
+    margin-top:25px;
+}
+
+.conversation-card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:12px 16px;
+    margin:8px 0;
+    background:#f9f9f9;
+    transition:0.25s;
+}
+
+.conversation-card:hover{
+    background:#e0e7ff;
+}
+
+.conversation-card a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+}
+
+.edit-profile-container {
+    width: 360px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.avatar-preview img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.profile-form input,
+.profile-form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.save-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #6a5af9, #9d6bff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+}

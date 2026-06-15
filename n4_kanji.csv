@@ -1,0 +1,194 @@
+﻿character,reading,meaning,level
+会,あう / カイ,to meet,N4
+社,シャ,company,N4
+員,イン,member,N4
+新,あたらしい / シン,new,N4
+聞,きく / ブン,"to listen, to ask",N4
+言,いう / ゲン,to say,N4
+話,はなす / ワ,"speak, talk",N4
+読,よむ / ドク,read,N4
+書,かく / ショ,write,N4
+買,かう,buy,N4
+売,うる,sell,N4
+使,つかう,use,N4
+作,つくる / サク,make,N4
+住,すむ / ジュウ,"live, reside",N4
+思,おもう / シ,think,N4
+知,しる / チ,know,N4
+待,まつ / タイ,wait,N4
+立,たつ / リツ,stand,N4
+走,はしる / ソウ,run,N4
+休,やすむ / キュウ,rest,N4
+始,はじめる / シ,start,N4
+終,おわる / シュウ,end,N4
+開,あける・ひらく / カイ,open,N4
+閉,しめる・とじる / ヘイ,close,N4
+教,おしえる / キョウ,teach,N4
+習,ならう / シュウ,learn,N4
+借,かりる / シャク,borrow,N4
+貸,かす / タイ,lend,N4
+返,かえす / ヘン,return,N4
+送,おくる / ソウ,send,N4
+迎,むかえる / ゲイ,"welcome,迎える",N4
+集,あつめる / シュウ,collect,N4
+止,とまる・とめる / シ,stop,N4
+動,うごく / ドウ,move,N4
+働,はたらく,work,N4
+重,おもい / ジュウ,heavy,N4
+軽,かるい / ケイ,light,N4
+近,ちかい / キン,near,N4
+遠,とおい / エン,far,N4
+早,はやい / ソウ,"early, fast",N4
+遅,おそい / チ,"l late, slow",N4
+多,おおい / タ,many,N4
+少,すくない / ショウ,few,N4
+強,つよい / キョウ,strong,N4
+弱,よわい / ジャク,weak,N4
+高,たかい / コウ,"high, expensive",N4
+安,やすい / アン,cheap,N4
+長,ながい / チョウ,long,N4
+短,みじかい / タン,short,N4
+広,ひろい / コウ,"wide, spacious",N4
+白,しろい / ハク,white,N4
+黒,くろい / コク,black,N4
+赤,あかい / セキ,red,N4
+青,あおい / セイ,blue,N4
+明,あかるい / メイ,bright,N4
+暗,くらい / アン,dark,N4
+楽,たのしい / ラク,"fun, easy",N4
+苦,くるしい / ク,"painful,苦しい",N4
+空,そら・あく / クウ,"sky, empty",N4
+天,— / テン,"heaven, sky",N4
+雨,あめ / ウ,rain,N4
+雪,ゆき / セツ,snow,N4
+風,かぜ / フウ,wind,N4
+電,— / デン,electricity,N4
+気,— / キ,"spirit, air",N4
+元,もと / ゲン,origin,N4
+病,やむ / ビョウ,illness,N4
+院,— / イン,"institution, hospital",N4
+医,— / イ,medical,N4
+者,もの / シャ,person,N4
+鳥,とり / チョウ,bird,N4
+魚,さかな / ギョ,fish,N4
+肉,— / ニク,meat,N4
+牛,うし / ギュウ,cow,N4
+馬,うま / バ,horse,N4
+米,こめ / ベイ,rice,N4
+茶,ちゃ / チャ,tea,N4
+酒,さけ / シュ,alcohol,N4
+飯,めし / ハン,"meal, rice",N4
+朝,あさ / チョウ,morning,N4
+昼,ひる / チュウ,noon,N4
+夜,よる / ヤ,night,N4
+週,— / シュウ,week,N4
+曜,— / ヨウ,day of week,N4
+春,はる / シュン,spring,N4
+夏,なつ / カ,summer,N4
+秋,あき / シュウ,autumn,N4
+冬,ふゆ / トウ,winter,N4
+今,いま / コン,now,N4
+先,さき / セン,"before, previous",N4
+後,あと・うしろ / ゴ,"after, behind",N4
+毎,— / マイ,every,N4
+別,わかれる / ベツ,separate,N4
+同,おなじ / ドウ,same,N4
+次,つぎ / ジ,next,N4
+第,— / ダイ,ordinal number,N4
+番,— / バン,"number, order",N4
+家,いえ・うち / カ,"house, home",N4
+族,— / ゾク,family,N4
+親,おや / シン,parent,N4
+兄,あに / ケイ,older brother,N4
+姉,あね / シ,older sister,N4
+弟,おとうと / テイ,younger brother,N4
+妹,いもうと / マイ,younger sister,N4
+子,こ / シ,child,N4
+男,おとこ / ダン,"man, male",N4
+女,おんな / ジョ,"woman, female",N4
+父,ちち / フ,father,N4
+母,はは / ボ,mother,N4
+友,とも / ユウ,friend,N4
+名,な / メイ,name,N4
+前,まえ / ゼン,"before, front",N4
+後,あと・うしろ / ゴ,"after, behind",N4
+中,なか / チュウ,"inside, middle",N4
+外,そと / ガイ,outside,N4
+上,うえ / ジョウ,"up, above",N4
+下,した / カ,"down, below",N4
+左,ひだり / サ,left,N4
+右,みぎ / ユウ,right,N4
+東,ひがし / トウ,east,N4
+西,にし / セイ,west,N4
+南,みなみ / ナン,south,N4
+北,きた / ホク,north,N4
+駅,えき / エキ,station,N4
+道,みち / ドウ,"road, way",N4
+町,まち / チョウ,town,N4
+村,むら / ソン,village,N4
+市,し / シ,city,N4
+店,みせ / テン,shop,N4
+建,たてる / ケン,build,N4
+物,もの / ブツ,thing,N4
+事,こと / ジ,"matter, thing",N4
+場,ば / ジョウ,place,N4
+所,ところ / ショ,place,N4
+部,— / ブ,"section, department",N4
+屋,や / オク,"shop,屋",N4
+階,— / カイ,"floor, storey",N4
+門,もん / モン,gate,N4
+橋,はし / キョウ,bridge,N4
+川,かわ / セン,river,N4
+山,やま / サン,mountain,N4
+海,うみ / カイ,sea,N4
+池,いけ / チ,pond,N4
+公,— / コウ,public,N4
+園,— / エン,"park, garden",N4
+走,はしる / ソウ,run,N4
+歩,あるく / ホ,walk,N4
+泳,およぐ / エイ,swim,N4
+起,おきる・おこす / キ,"get up, wake",N4
+寝,ねる / シン,sleep,N4
+働,はたらく,work,N4
+遊,あそぶ / ユウ,play,N4
+急,いそぐ / キュウ,hurry,N4
+遅,おそい / チ,"slow, late",N4
+速,はやい / ソク,fast,N4
+止,とまる・とめる / シ,stop,N4
+動,うごく / ドウ,move,N4
+入,はいる・いれる / ニュウ,"enter, put in",N4
+出,でる・だす / シュツ,"exit, take out",N4
+持,もつ / ジ,"have, hold",N4
+取,とる / シュ,take,N4
+置,おく / チ,"put, place",N4
+作,つくる / サク,make,N4
+売,うる / バイ,sell,N4
+買,かう / バイ,buy,N4
+貸,かす / タイ,lend,N4
+借,かりる / シャク,borrow,N4
+送,おくる / ソウ,send,N4
+待,まつ / タイ,wait,N4
+呼,よぶ / コ,call,N4
+教,おしえる / キョウ,teach,N4
+習,ならう / シュウ,learn,N4
+始,はじめる / シ,start,N4
+終,おわる・おえる / シュウ,end,N4
+開,あける・ひらく / カイ,open,N4
+閉,しめる・とじる / ヘイ,close,N4
+集,あつまる・あつめる / シュウ,"gather, collect",N4
+決,きめる / ケツ,decide,N4
+思,おもう / シ,think,N4
+知,しる / チ,know,N4
+考,かんがえる / コウ,"think, consider",N4
+答,こたえる / トウ,answer,N4
+問,とい・とう / モン,"question, ask",N4
+計,はかる / ケイ,"measure, plan",N4
+正,ただしい / セイ,correct,N4
+変,かわる・かえる / ヘン,change,N4
+同,おなじ / ドウ,same,N4
+別,わかれる / ベツ,separate,N4
+早,はやい / ソウ,"early, fast",N4
+高,たかい / コウ,"high, expensive",N4
+安,やすい / アン,cheap,N4
+多,おおい / タ,many,N4
+少,すくない / ショウ,few,N4

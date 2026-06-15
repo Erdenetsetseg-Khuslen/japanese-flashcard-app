@@ -1,0 +1,347 @@
+﻿character,reading,meaning,level
+議,— / ギ,deliberation,N2
+議論,ぎろん / —,"debate, discussion",N2
+権,— / ケン,"authority, right",N2
+権利,けんり / —,"right, privilege",N2
+義,— / ギ,justice,N2
+義務,ぎむ / —,obligation,N2
+責,せめる / セキ,"responsibility, blame",N2
+任,まかせる / ニン,"entrust, duty",N2
+務,つとめる / ム,"duty, task",N2
+務める,つとめる / —,to perform (duty),N2
+職,— / ショク,"occupation, job",N2
+業,わざ / ギョウ,"business, industry",N2
+営,いとなむ / エイ,"manage, operate",N2
+営む,いとなむ / —,run (business),N2
+経営,けいえい / —,management,N2
+管,くだ / カン,"control, manage",N2
+管理,かんり / —,"management, control",N2
+統,— / トウ,unite,N2
+統一,とういつ / —,unification,N2
+制,— / セイ,"system, control",N2
+制度,せいど / —,system,N2
+規,— / キ,"rule, regulation",N2
+規則,きそく / —,"rule, regulation",N2
+則,— / ソク,"law, rule",N2
+法,— / ホウ,"law, method",N2
+法律,ほうりつ / —,law,N2
+判,わかる / ハン,judge,N2
+判断,はんだん / —,judgement,N2
+裁く,さばく / サイ,judge,N2
+裁判,さいばん / —,"trial, court",N2
+訴,うったえる / ソ,"appeal, sue",N2
+訴える,うったえる / —,"to sue, appeal",N2
+罪,つみ / ザイ,"crime, sin",N2
+罰,ばつ / バツ,punishment,N2
+犯,おかす / ハン,commit (crime),N2
+刑,— / ケイ,punishment,N2
+刑事,けいじ / —,criminal case,N2
+警,— / ケイ,"police, warn",N2
+警察,けいさつ / —,police,N2
+察,— / サツ,inspect,N2
+捜,さがす / ソ,search,N2
+捜索,そうさく / —,search,N2
+逮,— / タイ,arrest,N2
+逮捕,たいほ / —,arrest,N2
+捕,とらえる / ホ,catch,N2
+拘,— / コウ,detain,N2
+拘束,こうそく / —,restrain,N2
+策,— / サク,"plan, policy",N2
+政策,せいさく / —,policy,N2
+施す,ほどこす / シ,carry out,N2
+実施,じっし / —,implement,N2
+推進,おす / スイ,recommend,N2
+推進,すいしん / —,promote,N2
+進,すすむ・すすめる / シン,advance,N2
+展開,— / テン,expand,N2
+展開,てんかい / —,development,N2
+拡,ひろがる・ひろげる / カク,expand,N2
+拡大,かくだい / —,expansion,N2
+縮,ちぢむ・ちぢめる / シュク,shrink,N2
+"削,削減",けずる / サク,cut down,N2
+削減,さくげん / —,reduction,N2
+増,ふえる・ふやす / ゾウ,increase,N2
+増加,ぞうか / —,increase,N2
+減,へる・へらす / ゲン,decrease,N2
+減少,げんしょう / —,decrease,N2
+維,— / イ,maintain,N2
+維持,いじ / —,"maintain, sustain",N2
+存,— / ソン,exist,N2
+存在,そんざい / —,existence,N2
+残,のこる・のこす / ザン,remain,N2
+残高,ざんだか / —,balance (money),N2
+資,— / シ,"resource, capital",N2
+資源,しげん / —,resource,N2
+源,みなもと / ゲン,"source, origin",N2
+財,— / ザイ,wealth,N2
+財産,ざいさん / —,"property, assets",N2
+富,とむ / フ,"wealth, rich",N2
+豊,ゆたか / ホウ,"abundant, rich",N2
+貧,まずしい / ヒン,poor,N2
+貧困,ひんこん / —,poverty,N2
+税,— / ゼイ,tax,N2
+課税,かぜい / —,taxation,N2
+収,おさめる・おさまる / シュウ,"collect, receive",N2
+収入,しゅうにゅう / —,income,N2
+支出,ししゅつ / —,expenditure,N2
+費,ついやす / ヒ,"spend, cost",N2
+消費,しょうひ / —,consumption,N2
+投,なげる / トウ,"throw, invest",N2
+投資,とうし / —,investment,N2
+融通,とける / ユウ,melt,N2
+金融,きんゆう / —,finance,N2
+融資,ゆうし / —,financing,N2
+貸,かす / タイ,lend,N2
+借,かりる / シャク,borrow,N2
+返,かえす / ヘン,return,N2
+測,はかる / ソク,measure,N2
+測定,そくてい / —,measurement,N2
+量,はかる / リョウ,"amount, quantity",N2
+数量,すうりょう / —,quantity,N2
+値,あたい / チ,"value, price",N2
+価値,かち / —,value,N2
+評,— / ヒョウ,"evaluate, judge",N2
+評価,ひょうか / —,evaluation,N2
+比,くらべる / ヒ,compare,N2
+比較,ひかく / —,comparison,N2
+較,— / カク,compare,N2
+競,きそう / キョウ,compete,N2
+競争,きょうそう / —,competition,N2
+争,あらそう / ソウ,dispute,N2
+争い,あらそい / —,conflict,N2
+勝,かつ / ショウ,win,N2
+敗,やぶれる / ハイ,"lose, be defeated",N2
+負,まける / フ,"lose,負け",N2
+占う,しめる・うらなう / セン,occupy,N2
+独占,どくせん / —,monopoly,N2
+率,ひきいる / リツ,"rate, lead",N2
+効,きく / コウ,effective,N2
+効果,こうか / —,effect,N2
+績,— / セキ,"results, achievement",N2
+実績,じっせき / —,achievement,N2
+功,— / コウ,merit,N2
+成功,せいこう / —,success,N2
+失,うしなう / シツ,"lose,失敗",N2
+失敗,しっぱい / —,failure,N2
+達,たっする / タツ,"achieve, reach",N2
+到達,とうたつ / —,reach,N2
+完,— / カン,complete,N2
+完成,かんせい / —,completion,N2
+欠,かける / ケツ,"lack,欠ける",N2
+欠点,けってん / —,weak point,N2
+破,やぶる / ハ,break,N2
+破壊,はかい / —,destruction,N2
+壊,こわす・こわれる / カイ,break,N2
+"修,修理",おさめる / シュウ,repair,N2
+修理,しゅうり / —,repair,N2
+整,ととのえる / セイ,"arrange, adjust",N2
+整理,せいり / —,organize,N2
+備,そなえる / ビ,prepare,N2
+準備,じゅんび / —,preparation,N2
+設,もうける / セツ,"set up, establish",N2
+設備,せつび / —,facilities,N2
+"装,装備",よそおう / ソウ,dress,N2
+装置,そうち / —,device,N2
+技,わざ / ギ,skill,N2
+技術,ぎじゅつ / —,technology,N2
+能,— / ノウ,ability,N2
+能力,のうりょく / —,ability,N2
+環,わ / カン,"environment, circle",N2
+環境,かんきょう / —,environment,N2
+境,さかい / キョウ,"border, boundary",N2
+周,まわり / シュウ,"around,周囲",N2
+周囲,しゅうい / —,surroundings,N2
+囲,かこむ / イ,"surround, enclose",N2
+包,つつむ / ホウ,wrap,N2
+含,ふくむ / ガン,include,N2
+含む,ふくむ / —,include,N2
+混,まじる・まぜる / コン,mix,N2
+混雑,こんざつ / —,crowded,N2
+並,ならぶ・ならべる / ヘイ,line up,N2
+並行,へいこう / —,parallel,N2
+連,つらなる・つらねる / レン,connect,N2
+連続,れんぞく / —,continue,N2
+続,つづく・つづける / ゾク,continue,N2
+継,つぐ / ケイ,"inherit, continue",N2
+継続,けいぞく / —,continuation,N2
+断,たつ / ダン,"cut off,断る",N2
+中断,ちゅうだん / —,interruption,N2
+止,とまる・とめる / シ,stop,N2
+停止,ていし / —,stop,N2
+防,ふせぐ / ボウ,prevent,N2
+防止,ぼうし / —,prevention,N2
+避,さける / ヒ,avoid,N2
+回避,かいひ / —,avoidance,N2
+危,あぶない / キ,danger,N2
+危険,きけん / —,danger,N2
+険,けわしい / ケン,"steep,険しい",N2
+険悪,けんあく / —,hostile,N2
+被,こうむる / ヒ,suffer,N2
+被害,ひがい / —,damage,N2
+害,がい / ガイ,harm,N2
+損,そこなう / ソン,"damage, loss",N2
+損害,そんがい / —,damage,N2
+傷,きず / ショウ,"wound,傷",N2
+負傷,ふしょう / —,injury,N2
+痛,いたい / ツウ,pain,N2
+苦痛,くつう / —,pain,N2
+救,すくう / キュウ,save,N2
+救助,きゅうじょ / —,rescue,N2
+助,たすける / ジョ,help,N2
+援助,えんじょ / —,aid,N2
+支,ささえる / シ,support,N2
+支持,しじ / —,support,N2
+保,たもつ / ホ,"keep, protect",N2
+保証,ほしょう / —,guarantee,N2
+守,まもる / シュ,protect,N2
+保守,ほしゅ / —,"conservative, maintenance",N2
+護,まもる / ゴ,protect,N2
+看護,かんご / —,nursing,N2
+認,みとめる / ニン,"recognize, admit",N2
+認識,にんしき / —,recognition,N2
+確,たしか / カク,"certain, sure",N2
+確認,かくにん / —,confirmation,N2
+証,あかし / ショウ,"proof,証明",N2
+証明,しょうめい / —,proof,N2
+示,しめす / ジ,"show, indicate",N2
+表示,ひょうじ / —,display,N2
+告,つげる / コク,announce,N2
+報告,ほうこく / —,report,N2
+伝,つたえる / デン,convey,N2
+伝達,でんたつ / —,transmission,N2
+達,たっする / タツ,"attain, reach",N2
+通知,つうち / —,notice,N2
+知,しる / チ,know,N2
+知識,ちしき / —,knowledge,N2
+解,とく・とける / カイ,"solve, understand",N2
+理解,りかい / —,understanding,N2
+釈,— / シャク,explain,N2
+解釈,かいしゃく / —,interpretation,N2
+説,とく / セツ,"explain, theory",N2
+説明,せつめい / —,explanation,N2
+論,— / ロン,"theory, argument",N2
+理論,りろん / —,theory,N2
+論争,ろんそう / —,dispute,N2
+題,— / ダイ,"topic, subject",N2
+話題,わだい / —,topic,N2
+談,— / ダン,talk,N2
+相談,そうだん / —,consultation,N2
+議,— / ギ,deliberate,N2
+会議,かいぎ / —,meeting,N2
+討,うつ / トウ,"attack,討論",N2
+討論,とうろん / —,debate,N2
+検,— / ケン,inspect,N2
+検査,けんさ / —,inspection,N2
+調,しらべる / チョウ,investigate,N2
+調査,ちょうさ / —,investigation,N2
+査,— / サ,investigate,N2
+査定,さてい / —,assessment,N2
+究,きわめる / キュウ,"research,究明",N2
+研究,けんきゅう / —,research,N2
+探,さがす / タン,search,N2
+探索,たんさく / —,search,N2
+索,— / サク,search,N2
+索引,さくいん / —,index,N2
+追,おう / ツイ,"follow, pursue",N2
+追加,ついか / —,addition,N2
+構,かまえる / コウ,"structure, construct",N2
+構成,こうせい / —,composition,N2
+築,きずく / チク,"build, construct",N2
+建築,けんちく / —,architecture,N2
+改,あらためる / カイ,"change, reform",N2
+改善,かいぜん / —,improvement,N2
+革,かわ / カク,"leather, reform",N2
+改革,かいかく / —,reform,N2
+更,さらに / コウ,"again, change",N2
+更新,こうしん / —,update,N2
+替,かえる・かわる / タイ,replace,N2
+交換,こうかん / —,exchange,N2
+替代,— / タイダイ,substitution,N2
+換,かえる / カン,exchange,N2
+変換,へんかん / —,convert,N2
+調整,ちょうせい / —,adjustment,N2
+整備,せいび / —,maintenance,N2
+修正,しゅうせい / —,correction,N2
+訂,ただす / テイ,"correct, revise",N2
+訂正,ていせい / —,correction,N2
+補,おぎなう / ホ,supplement,N2
+補足,ほそく / —,supplement,N2
+充,あてる / ジュウ,fill,N2
+充実,じゅうじつ / —,fulfillment,N2
+満,みちる / マン,full,N2
+満足,まんぞく / —,satisfaction,N2
+欠乏,けつぼう / —,shortage,N2
+不足,ふそく / —,shortage,N2
+余,あまる / ヨ,extra,N2
+余裕,よゆう / —,leeway,N2
+余分,よぶん / —,excess,N2
+超,こえる / チョウ,exceed,N2
+超過,ちょうか / —,excess,N2
+限,かぎる / ゲン,limit,N2
+制限,せいげん / —,limit,N2
+制約,せいやく / —,restriction,N2
+禁,いましめる / キン,forbid,N2
+禁止,きんし / —,prohibition,N2
+許,ゆるす / キョ,permit,N2
+許可,きょか / —,permission,N2
+容,いれる / ヨウ,"contain, allow",N2
+容認,ようにん / —,approve,N2
+拒,こばむ / キョ,refuse,N2
+拒否,きょひ / —,refusal,N2
+認可,にんか / —,authorization,N2
+承,うけたまわる / ショウ,consent,N2
+承認,しょうにん / —,approval,N2
+承諾,しょうだく / —,consent,N2
+属,ぞく / ショク,"belong, category",N2
+所属,しょぞく / —,affiliation,N2
+系,けい / ケイ,"system, lineage",N2
+体系,たいけい / —,system,N2
+派,は / ハ,faction,N2
+派遣,はけん / —,dispatch,N2
+団,だん / ダン,group,N2
+団体,だんたい / —,organization,N2
+隊,たい / タイ,squad,N2
+部隊,ぶたい / —,"unit, troop",N2
+組,くむ / ソ,organize,N2
+組織,そしき / —,organization,N2
+員,いん / イン,member,N2
+職員,しょくいん / —,staff,N2
+仲,なか / チュウ,relationship,N2
+仲間,なかま / —,companion,N2
+協,— / キョウ,cooperate,N2
+協力,きょうりょく / —,cooperation,N2
+提,さげる / テイ,present,N2
+提案,ていあん / —,proposal,N2
+案,あん / アン,"plan, idea",N2
+案件,あんけん / —,"case, matter",N2
+企,くわだてる / キ,plan,N2
+企画,きかく / —,"plan, project",N2
+計,はかる / ケイ,"measure, plan",N2
+計画,けいかく / —,plan,N2
+予,あらかじめ / ヨ,beforehand,N2
+予定,よてい / —,schedule,N2
+期,— / キ,"period, time",N2
+期間,きかん / —,period,N2
+限界,げんかい / —,limit,N2
+範,— / ハン,model,N2
+範囲,はんい / —,range,N2
+域,いき / イキ,"area, region",N2
+区域,くいき / —,zone,N2
+圏,けん / ケン,sphere,N2
+都市圏,としけん / —,metro area,N2
+辺,あたり / ヘン,"area, side",N2
+周辺,しゅうへん / —,vicinity,N2
+際,きわ / サイ,"edge, occasion",N2
+国際,こくさい / —,international,N2
+境界,きょうかい / —,borderline,N2
+接,つぐ / セツ,contact,N2
+接続,せつぞく / —,connection,N2
+交,まじわる / コウ,intersect,N2
+交流,こうりゅう / —,exchange,N2
+関,かかわる / カン,relate,N2
+関係,かんけい / —,relation,N2
+係,かかり / ケイ,in charge,N2
+担当,たんとう / —,in charge,N2
+任命,にんめい / —,appointment,N2
+委,ゆだねる / イ,entrust,N2
+委員,いいん / —,committee member,N2

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'flashcards/css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+<h2>Welcome to Kanji Flashcards 📘</h2>
+
+<div class="card-container">
+
+  <div class="card">
+    <div class="card-icon">📘</div>
+    <h3>Kanji Flashcards</h3>
+    <p>JLPT N5–N2 Kanji Flashcards</p>
+    <a href="{% url 'flashcards' %}" class="card-btn">Start</a>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">📖</div>
+    <h3>Grammar</h3>
+    <p>Grammar categorized by JLPT level</p>
+    <a href="{% url 'grammar_flashcards' 'N5' %}" class="card-btn">Learn</a>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">💭</div>
+    <h3>Daily Conversations</h3>
+    <p>Enjoy conversation</p>
+    <a href="{% url 'conversation_flashcard' 1 %}" class="card-btn">Learn</a>
+  </div>
+
+  <div class="card">
+    <div class="card-icon">🅰️</div>
+    <h3>Kana Basics</h3>
+    <p>Beginner-level Hiragana & Katakana</p>
+    <a href="{% url 'kana' %}" class="card-btn">Practice</a>
+  </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'flashcards/css/grammar.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<h2>{{ level }} Grammar Flashcards</h2>
+
+<!-- LEVEL BUTTONS -->
+<div class="level-container">
+    <a href="?level=N5" class="level-card n5">N5</a>
+    <a href="?level=N4" class="level-card n4">N4</a>
+    <a href="?level=N3" class="level-card n3">N3</a>
+    <a href="?level=N2" class="level-card n2">N2</a>
+</div>
+
+{% if grammar %}
+<div class="flashcard-container">
+
+    <div class="flip-card">
+
+        <!-- ⭐ SAVE STAR -->
+        <form method="post" action="{% url 'toggle_save_grammar' grammar.id %}" class="star-form">
+            {% csrf_token %}
+            <button type="submit" class="star-btn {% if is_saved %}saved{% endif %}">
+                {% if is_saved %}⭐{% else %}☆{% endif %}
+            </button>
+        </form>
+
+        <div class="flip-inner" id="flipInner" onclick="flipCard()">
+
+            <!-- FRONT -->
+            <div class="flip-front">
+                <div class="kanji">{{ grammar.pattern }}</div>
+                <div class="position">#{{ grammar.number }}</div>
+            </div>
+
+            <!-- BACK -->
+            <div class="flip-back">
+                <div class="reading">{{ grammar.meaning_en }}</div>
+                <div class="meaning">{{ grammar.meaning_jp }}</div>
+
+                <p><b>Example:</b> {{ grammar.example_jp }}</p>
+                <p>{{ grammar.example_en }}</p>
+
+                {% if grammar.structure %}
+                <p><b>Structure:</b> {{ grammar.structure }}</p>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="action-buttons">
+        {% if can_go_back %}
+        <a href="?level={{ level }}&action=back" class="btn back">戻る</a>
+        {% endif %}
+
+        <span class="position">{{ position }}</span>
+
+        {% if can_go_next %}
+        <a href="?level={{ level }}&action=next" class="btn next">次</a>
+        {% endif %}
+    </div>
+
+</div>
+{% endif %}
+
+<script>
+function flipCard() {
+    document.getElementById("flipInner").classList.toggle("flipped");
+}
+</script>
+
+{% endblock %}

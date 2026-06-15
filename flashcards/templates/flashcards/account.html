@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}My Account{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'flashcards/css/account.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<h1 class="page-title">My Account</h1>
+
+<div class="account-container">
+
+
+    <!-- ================= LEFT PROFILE ================= -->
+    <div class="profile-card">
+
+        {% if profile.avatar %}
+            <img src="{{ profile.avatar.url }}" class="avatar">
+        {% else %}
+            <img src="{% static 'images/default-avatar.png' %}" class="avatar">
+        {% endif %}
+
+        <h3>{{ user.username }} {{ profile.emoji }}</h3>
+        <p>{{ user.email }}</p>
+        <p>{{ profile.bio }}</p>
+
+        <!-- EDIT BUTTON -->
+        <button onclick="toggleEdit()" class="edit-btn">Edit Profile</button>
+
+        <!-- EDIT FORM -->
+        <div id="editForm" style="display:none; margin-top:15px;">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <label>Avatar</label>
+                {{ form.avatar }}
+
+                <label>Emoji</label>
+                {{ form.emoji }}
+
+                <label>Bio</label>
+                {{ form.bio }}
+
+                <button type="submit" class="save-btn">Save</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= RIGHT CONTENT ================= -->
+    <div class="content">
+
+        <!-- 🔥 TOP TABS -->
+        <div class="top-tabs">
+            <button class="tab-btn active" onclick="showTab('kanji', this)">Kanji</button>
+            <button class="tab-btn" onclick="showTab('grammar', this)">Grammar</button>
+            <button class="tab-btn" onclick="showTab('conversation', this)">Conversation</button>
+        </div>
+
+
+        <!-- ================= KANJI ================= -->
+        <div id="kanjiTab" class="tab-content">
+
+            {% regroup saved_kanji by kanji.level as level_list %}
+
+            {% for group in level_list %}
+            <div class="level-section">
+
+                <h3 class="level-title" onclick="toggleLevel(this)">
+                    {{ group.grouper }} ({{ group.list|length }})
+                </h3>
+
+                <div class="kanji-grid level-content">
+                    {% for item in group.list %}
+                    <div class="saved-card" onclick="flip(this)">
+                        <div class="inner">
+                            <div class="front">
+                                {{ item.kanji.character }}
+                            </div>
+                            <div class="back">
+                                <div>{{ item.kanji.reading }}</div>
+                                <small>{{ item.kanji.meaning }}</small>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+            </div>
+            {% empty %}
+                <p>No saved kanji yet.</p>
+            {% endfor %}
+
+        </div>
+
+
+        <!-- ================= GRAMMAR ================= -->
+        <div id="grammarTab" class="tab-content" style="display:none;">
+
+            {% for level, grammars in grammar_by_level.items %}
+            <div class="level-section">
+
+                <h3 class="level-title" onclick="toggleLevel(this)">
+                    {{ level }} ({{ grammars|length }})
+                </h3>
+
+                <div class="kanji-grid level-content">
+                    {% for g in grammars %}
+                    <div class="saved-card grammar-card">
+                        <div class="inner">
+                            <div class="front">{{ g.pattern }}</div>
+                            <div class="back">
+                                <div>{{ g.meaning_jp }}</div>
+                                <small>{{ g.meaning_en }}</small>
+                            </div>
+                        </div>
+                    </div>
+                    {% empty %}
+                        <p>No grammar saved.</p>
+                    {% endfor %}
+                </div>
+
+            </div>
+            {% endfor %}
+
+        </div>
+
+
+        <!-- ================= CONVERSATION ================= -->
+        <div id="conversationTab" class="tab-content" style="display:none;">
+            <div class="saved-conversations">
+                {% for item in saved_conversations %}
+                    <div class="conversation-card">
+                        <a href="{% url 'conversation_flashcard' item.conversation.id %}">
+                            {{ item.conversation.japanese }}
+                        </a>
+                    </div>
+                {% empty %}
+                    <p>No saved conversations yet.</p>
+                {% endfor %}
+            </div>
+        </div>
+
+        <a href="{% url 'home' %}" class="back-btn">Back to Home</a>
+
+    </div>
+
+</div>
+
+
+<!-- ================= JS ================= -->
+
+<script>
+function flip(card){
+    card.classList.toggle("flipped");
+}
+
+function toggleLevel(title){
+    const section = title.closest(".level-section");
+    const content = section.querySelector(".level-content");
+    content.classList.toggle("open");
+}
+
+function toggleEdit(){
+    const form = document.getElementById("editForm");
+    form.style.display =
+        form.style.display === "none" ? "block" : "none";
+}
+
+function showTab(tab, el){
+
+    document.getElementById("kanjiTab").style.display="none";
+    document.getElementById("grammarTab").style.display="none";
+    document.getElementById("conversationTab").style.display="none";
+
+    document.querySelectorAll(".tab-btn").forEach(btn=>{
+        btn.classList.remove("active");
+    });
+
+    if(tab==="kanji"){
+        document.getElementById("kanjiTab").style.display="block";
+    }
+    if(tab==="grammar"){
+        document.getElementById("grammarTab").style.display="block";
+    }
+    if(tab==="conversation"){
+        document.getElementById("conversationTab").style.display="block";
+    }
+
+    el.classList.add("active");
+}
+</script>
+
+{% endblock %}

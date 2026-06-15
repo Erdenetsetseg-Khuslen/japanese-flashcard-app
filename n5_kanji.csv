@@ -1,0 +1,104 @@
+﻿character,reading,meaning,level
+日,"ニチ, ジツ ひ, -び, -か","Sun, Day",N5
+月,"ゲツ, ガツ つき","Moon, Month",N5
+金,"キン, コン かね, かな-","Gold, Money",N5
+水,スイ みず,Water,N5
+火,カ ひ,Fire,N5
+木,"モク, ボク き","Tree, Wood",N5
+土,"ド, ト つち","Earth, Soil",N5
+車,シャ くるま,"Car, Vehicle",N5
+門,モン と,Gate,N5
+田,デン た,Rice field,N5
+山,サン やま,Mountain,N5
+川,セン かわ,River,N5
+雨,"ウ あめ, あま-",Rain,N5
+天,テン あめ,Heaven,N5
+気,キ いき,"Spirit, Air",N5
+父,フ ちち,Father,N5
+母,ボ はは,Mother,N5
+私,"シ わたし, わたくし","I, Private",N5
+兄,"ケイ, キョウ あに",Older brother,N5
+姉,シ あね,Older sister,N5
+弟,テイ おとうと,Younger brother,N5
+妹,マイ いもうと,Younger sister,N5
+一,"イチ, イツ ひと-",One,N5
+二,ニ ふた,Two,N5
+三,"サン み, みっ-",Three,N5
+四,"シ よ, よん",Four,N5
+五,ゴ いつ,Five,N5
+六,"ロク む, むっ-",Six,N5
+七,"シチ なな, なの",Seven,N5
+八,"ハチ や, やっ-",Eight,N5
+九,"キュウ, ク ここの",Nine,N5
+十,"ジュウ とお, と",Ten,N5
+百,ヒャク もも,Hundred,N5
+千,セン ち,Thousand,N5
+万,マン よろず,Ten thousand,N5
+円,"エン まる, えん","Yen, Circle",N5
+年,ネン とし,Year,N5
+半,ハン なか-,Half,N5
+分,"ブン, フン わ-ける","Minute, To divide",N5
+時,ジ とき,"Time, Hour",N5
+人,"ジン, ニン ひと",Person,N5
+女,"ジョ, ニョ おんな",Woman,N5
+生,"セイ, ショウ い-きる, う-まれる","Life, To be born",N5
+子,シ こ,Child,N5
+学,ガク まな-ぶ,"Study, Learning",N5
+先,セン さき,"Previous, Ahead",N5
+白,"ハク, ビャク しろ, しら-",White,N5
+口,"コウ, ク くち",Mouth,N5
+石,"セキ, シャク いし",Stone,N5
+手,シュ て,Hand,N5
+足,"ソク あし, た-, た-りる","Foot, Leg, Enough",N5
+耳,ジ みみ,Ear,N5
+目,"モク, ボク め, ま-",Eye,N5
+体,タイ からだ,Body,N5
+上,"ジョウ うえ, うわ-","Up, Above",N5
+下,"カ, ゲ した, さ-","Down, Below",N5
+中,チュウ なか,"Middle, Inside",N5
+大,"ダイ, タイ おお-, おおきい","Big, Large",N5
+小,"ショウ ちい-さい, こ-",Small,N5
+本,ホン もと,"Book, Origin",N5
+力,"リョク, リキ ちから","Power, Strength",N5
+何,"カ なに, なん-",What,N5
+出,シュツ で-る,"To exit, To go out",N5
+入,"ニュウ い-る, はい-る",To enter,N5
+明,メイ あ-かり,"Bright, Light",N5
+休,キュウ やす-む,Rest,N5
+好,"コウ この-む, す-く","Like, To be fond of",N5
+男,"ダン, ナン おとこ","Man, Male",N5
+間,"カン, ケン あいだ, ま","Interval, Space",N5
+岩,ガン いわ,Rock,N5
+畑,"ハタ, バタ はた, はたけ",Field,N5
+森,シン もり,Forest,N5
+林,リン はやし,Woods,N5
+右,ウ みぎ,Right,N5
+左,サ ひだり,Left,N5
+東,トウ ひがし,East,N5
+西,"セイ, サイ にし",West,N5
+北,ホク きた,North,N5
+南,ナン みなみ,South,N5
+外,ガイ そと,Outside,N5
+駅,エキ ,Station,N5
+会,"カイ, エ あ-う","Meeting, Association",N5
+内,ナイ うち,Inside,N5
+長,チョウ なが-い,"Long, Leader",N5
+高,コウ たか-い,"High, Expensive",N5
+名,メイ な,Name,N5
+行,"コウ, ギョウ い-く, ゆ-く","To go, To conduct",N5
+来,ライ く-る,To come,N5
+食,ショク た-べる,To eat,N5
+見,ケン み-る,"To see, To look",N5
+聞,ブン き-く,"To hear, To listen",N5
+読,ドク よ-む,To read,N5
+書,ショ か-く,To write,N5
+話,ワ はな-す,"To speak, To talk",N5
+午,ゴ うま,Noon,N5
+前,ゼン まえ,"Before, In front",N5
+後,"ゴ あと, うし-ろ","After, Behind",N5
+毎,マイ ごと,Every,N5
+校,コウ ,School,N5
+語,ゴ かた-る,"Language, Word",N5
+今,"コン, コ いま",Now,N5
+電,デン ,Electricity,N5
+国,コク くに,Country,N5

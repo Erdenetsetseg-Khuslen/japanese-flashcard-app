@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="logout-wrapper">
+    <div class="logout-card">
+        <div class="logout-icon">👋</div>
+
+        <h2>Logged out successfully</h2>
+        <p>“See you later! Come back and study Kanji again.”😊</p>
+
+        <div class="logout-actions">
+            <a href="{% url 'login' %}" class="btn primary">Login again</a>
+            <a href="{% url 'home' %}" class="btn secondary">Back to Home</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

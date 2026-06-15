@@ -1,0 +1,40 @@
+﻿pattern,meaning_jp,meaning_en,example_jp,example_en,structure,notes,level
+〜です,ていねい,polite statement,わたしはがくせいです。,I am a student.,Noun + です,Basic polite form,N5
+〜ではありません,ひてい,not (polite),せんせいではありません。,I am not a teacher.,Noun + ではありません,Polite negative,N5
+〜があります,そんざい,there is (thing),つくえのうえにほんがあります。,There is a book on the desk.,Noun + が あります,Used for objects,N5
+〜がいます,そんざい,there is (person/animal),へやにねこがいます。,There is a cat in the room.,Noun + が います,Used for living things,N5
+〜をください,いらい,please give,みずをください。,Please give me water.,Noun + をください,Requesting items,N5
+〜ましょう,さそい,let's do,いきましょう。,Let's go.,Verbます→ましょう,Suggestion,N5
+〜ませんか,さそい,won't you...?,いっしょにいきませんか。,Won't you go together?,Verbませんか,Invitation,N5
+〜ましょうか,もうしで,shall I...?,てつだいましょうか。,Shall I help?,Verbましょうか,Offering help,N5
+〜てください,いらい,please do,まってください。,Please wait.,Verbて + ください,Polite request,N5
+〜てもいいです,きょか,may do,ここにすわってもいいです。,May I sit here?,Verbて + もいい,Permission,N5
+〜てはいけません,きんし,must not,ここでたばこをすってはいけません。,You must not smoke here.,Verbて + はいけません,Prohibition,N5
+〜ています,どうさちゅう,action in progress,ごはんをたべています。,I am eating.,Verbて + いる,Ongoing action,N5
+〜たいです,きぼう,want to do,にほんへいきたいです。,I want to go to Japan.,Verbます→たい,Express desire,N5
+〜たり〜たりする,れいじ,do things like...,やすみのひはえいがをみたりほんをよんだりします。,On days off I watch movies and read books.,Verbた + り + Verbた + りする,Listing actions,N5
+〜から,りゆう,because,あめだからいきません。,I won't go because it's raining.,Clause + から,Giving reason,N5
+〜ので,りゆう,because (soft),びょうきなのでがっこうをやすみます。,I am sick so I will rest.,Clause + ので,Softer reason,N5
+〜けど,てんかん,but,いきたいけどおかねがありません。,I want to go but I have no money.,Clause + けど,Contrast,N5
+〜ほうがいい,すすめる,had better,やすんだほうがいいです。,You should rest.,Verbた + ほうがいい,Advice,N5,
+〜つもり,よてい,intend to,あしたべんきょうするつもりです。,I intend to study tomorrow.,Verbる + つもり,Intention,N5
+〜ながら,どうじ,while doing,おんがくをききながらべんきょうします。,I study while listening to music.,Verbます-stem + ながら,Simultaneous action,N5
+〜まえに,じかん,before doing,ねるまえにほんをよみます。,I read before sleeping.,Verbる + まえに,Before action,N5
+〜あとで,じかん,after doing,ごはんのあとでべんきょうします。,I study after dinner.,Nounの + あとで,After action,N5
+〜ことがある,けいけん,have experience,にほんへいったことがあります。,I have been to Japan.,Verbた + ことがある,Past experience,N5
+〜でしょう,すいり,probably,あしたはあめでしょう。,It will probably rain tomorrow.,Clause + でしょう,Guess,N5
+〜まだ〜ていません,みけいけん,have not yet,まだしゅくだいをしていません。,I haven't done homework yet.,まだ + Verbていない,Not yet,N5
+〜しか〜ない,げんてい,only,みずしかありません。,There is only water.,Noun + しか + negative,Limitation,N5
+〜だけ,げんてい,only,ひとつだけください。,Please give only one.,Noun + だけ,Only,N5
+〜でも,れいじ,for example,のみものでものみませんか。,Would you like a drink or something?,Noun + でも,Suggestion example,N5
+〜や,れいじ,and etc.,つくえのうえにほんやノートがあります。,There are books and notebooks.,Noun + や + Noun,Non-exhaustive list,N5
+〜と,じょうけん,if/when,はるになるとさくらがさきます。,When spring comes, cherry blossoms bloom.,Clause + と,Natural result,N5
+〜なければなりません,ひつよう,must do,べんきょうしなければなりません。,I must study.,Verbない→なければなりません,Obligation,N5
+〜なくてもいい,ふひつよう,don't have to,いかなくてもいいです。,You don't have to go.,Verbない→なくてもいい,No obligation,N5
+〜そうです,みため,looks like,おいしそうです。,It looks delicious.,Verbます-stem + そう,Appearance,N5
+〜こと,めいしか,nominalizer,にほんごをべんきょうすることはたのしいです。,Studying Japanese is fun.,Verbる + こと,Turns verb into noun,N5
+〜のがすき,このみ,like doing,えいがをみるのがすきです。,I like watching movies.,Verbる + のがすき,Express liking,N5
+〜のがじょうず,のうりょく,good at,えをかくのがじょうずです。,I am good at drawing.,Verbる + のがじょうず,Skill expression,N5
+〜すぎる,かど,too much,たべすぎました。,I ate too much.,Verbます-stem + すぎる,Excess,N5
+〜やすい,かんたん,easy to do,このほんはよみやすいです。,This book is easy to read.,Verbます-stem + やすい,Ease,N5
+〜にくい,むずかしい,hard to do,このかんじはおぼえにくいです。,This kanji is hard to remember.,Verbます-stem + にくい,Difficulty,N5

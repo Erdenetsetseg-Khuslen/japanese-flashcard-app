@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Edit Profile{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="edit-profile-container">
+
+    <h2>Edit Profile</h2>
+
+    <!-- CURRENT AVATAR -->
+    <div class="avatar-preview">
+        {% if user.profile.avatar %}
+            <img src="{{ user.profile.avatar.url }}" id="avatarPreview">
+        {% else %}
+            <img src="{% static 'images/default-avatar.png' %}" id="avatarPreview">
+        {% endif %}
+    </div>
+
+    <!-- FORM -->
+    <form method="POST" enctype="multipart/form-data" class="profile-form">
+        {% csrf_token %}
+
+        <!-- Avatar -->
+        <label class="form-label">Change avatar</label>
+        {{ form.avatar }}
+
+        <!-- Emoji -->
+        <label class="form-label">Your emoji</label>
+        {{ form.emoji }}
+
+        <!-- Bio -->
+        <label class="form-label">Bio</label>
+        {{ form.bio }}
+
+        <button type="submit" class="save-btn">Save Changes</button>
+    </form>
+
+    <a href="{% url 'account' %}" class="back-btn">Cancel</a>
+
+</div>
+
+<!-- LIVE AVATAR PREVIEW SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+    const fileInput = document.querySelector("input[type='file']");
+    const preview = document.getElementById("avatarPreview");
+
+    if(fileInput){
+        fileInput.addEventListener("change", function(){
+            const file = this.files[0];
+            if(file){
+                preview.src = URL.createObjectURL(file);
+            }
+        });
+    }
+});
+</script>
+
+{% endblock %}

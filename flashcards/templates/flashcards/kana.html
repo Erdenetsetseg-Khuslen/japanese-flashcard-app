@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Kana Basics{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'flashcards/css/kana.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<h2 class="kana-title">Hiragana & Katakana</h2>
+
+<h3>Hiragana</h3>
+<div class="kana-grid">
+    {% for kana, reading in hiragana %}
+    <div class="kana-card" onclick="playSound('{{ reading }}')">
+        {{ kana }}
+        <span>{{ reading }}</span>
+    </div>
+    {% endfor %}
+</div>
+
+<h3>Katakana</h3>
+<div class="kana-grid">
+    {% for kana, reading in katakana %}
+    <div class="kana-card" onclick="playSound('{{ reading }}')">
+        {{ kana }}
+        <span>{{ reading }}</span>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- ⭐ QUIZ START BUTTON ЭНД ⭐ -->
+<div style="text-align:center; margin-top:40px;">
+    <a href="{% url 'kana_quiz' %}" class="quiz-start-btn">
+        🎧 Start Kana Listening Quiz
+    </a>
+</div>
+
+<script>
+function playSound(sound) {
+    let audio = new Audio(`/static/flashcards/sounds/${sound}.mp3`);
+    audio.play();
+}
+</script>
+
+<script>
+function playSound(sound) {
+    let audio = new Audio(`/static/flashcards/sounds/${sound}.mp3`);
+    audio.play();
+}
+</script>
+{% endblock %}

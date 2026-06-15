@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <h2>Login</h2>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <label>Username</label>
+            {{ form.username }}
+
+            <label>Password</label>
+            {{ form.password }}
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="auth-footer">
+            Don’t have an account?
+            <a href="{% url 'register' %}">Register</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

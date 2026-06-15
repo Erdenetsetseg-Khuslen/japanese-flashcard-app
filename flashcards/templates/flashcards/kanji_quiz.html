@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Kanji Quiz{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'flashcards/css/kanji_quiz.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="quiz-header">
+    <div class="level-select">
+        <button id="levelBtn">{{ level }} ▾</button>
+        <div id="levelMenu" class="level-menu">
+            <a href="{% url 'kanji_quiz' 'N5' mode %}?reset=1">N5</a>
+<a href="{% url 'kanji_quiz' 'N4' mode %}?reset=1">N4</a>
+<a href="{% url 'kanji_quiz' 'N3' mode %}?reset=1">N3</a>
+<a href="{% url 'kanji_quiz' 'N2' mode %}?reset=1">N2</a>
+
+        </div>
+    </div>
+    <h2>Kanji Quiz</h2>
+</div>
+
+{% if not finished %}
+
+<h3 class="quiz-title">
+{% if mode == "meaning" %}
+What is the meaning of this kanji?
+{% else %}
+What is the reading of this kanji?
+{% endif %}
+</h3>
+
+<div class="quiz-card">
+    <div class="kanji-big">{{ question.character }}</div>
+
+    <form method="POST" id="quizForm" class="choices-grid">
+    {% csrf_token %}
+    {% for choice in choices %}
+        <button
+            type="button"
+            class="choice-box"
+            data-answer="{{ choice.value }}"
+            data-correct="{{ choice.is_correct }}">
+            {{ choice.value }}
+        </button>
+    {% endfor %}
+</form>
+</div>
+
+{% else %}
+
+<div id="result-overlay">
+    <div class="result-modal">
+        <h2>🎉 Quiz Finished!</h2>
+        <p> "20 questions" <b>{{ correct }}</b> correct, <b>{{ wrong }}</b> wrong </p>
+
+        <div class="result-actions">
+            <a href="?reset=1" class="btn primary">🔁 Again</a>
+            <a href="{% url 'flashcards' %}" class="btn secondary">📚 Back</a>
+        </div>
+    </div>
+</div>
+
+{% endif %}
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".choice-box");
+    const form = document.getElementById("quizForm");
+    const card = document.querySelector(".quiz-card");
+    let answered = false;
+
+    buttons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            if (answered) return;
+            answered = true;
+
+            const isCorrect = btn.dataset.correct === "True";
+
+            // зөв / буруу class
+            btn.classList.add(isCorrect ? "correct" : "wrong");
+
+            // бусад товч disable
+            buttons.forEach(b => {
+                b.disabled = true;
+                b.classList.add("disabled");
+            });
+
+            // hidden input
+            const input = document.createElement("input");
+            input.type = "hidden";
+            input.name = "answer";
+            input.value = btn.dataset.answer;
+            form.appendChild(input);
+
+            if (isCorrect) {
+                // 🎆 CONFETTI
+                for (let i = 0; i < 20; i++) {
+                    const conf = document.createElement("div");
+                    conf.className = "confetti";
+
+                    conf.style.setProperty("--x", `${Math.random() * 200 - 100}px`);
+                    conf.style.setProperty("--y", `${Math.random() * -200}px`);
+                    conf.style.setProperty("--h", Math.floor(Math.random() * 360));
+
+                    document.body.appendChild(conf);
+                    setTimeout(() => conf.remove(), 900);
+                }
+            } else {
+                // 🤕 SHAKE
+                card.classList.add("shake");
+                setTimeout(() => {
+                    card.classList.remove("shake");
+                }, 450);
+            }
+
+            // delay → next kanji
+            setTimeout(() => {
+                form.submit();
+            }, 800);
+        });
+    });
+
+    /* LEVEL DROPDOWN */
+    const levelBtn = document.getElementById("levelBtn");
+    const levelMenu = document.getElementById("levelMenu");
+
+    if (levelBtn && levelMenu) {
+        levelBtn.addEventListener("click", e => {
+            e.stopPropagation();
+            levelMenu.style.display =
+                levelMenu.style.display === "block" ? "none" : "block";
+        });
+
+        document.addEventListener("click", () => {
+            levelMenu.style.display = "none";
+        });
+    }
+});
+</script>
+
+
+{% endblock %}

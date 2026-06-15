@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2>Kanji Flashcards</h2>
+
+<!-- LEVEL BUTTONS -->
+<div class="level-container">
+    <a href="?level=N5" class="level-card n5">N5</a>
+    <a href="?level=N4" class="level-card n4">N4</a>
+    <a href="?level=N3" class="level-card n3">N3</a>
+    <a href="?level=N2" class="level-card n2">N2</a>
+</div>
+
+{% if kanji %}
+<div class="flashcard-container">
+
+    <!-- FLIP CARD -->
+    <div class="flip-card">
+
+        <!-- ⭐ SAVE STAR (card дотор баруун дээд) -->
+        <form method="post" action="{% url 'toggle_save_kanji' kanji.id %}" class="star-form">
+            {% csrf_token %}
+            <input type="hidden" name="level" value="{{ level }}">
+            <button type="submit" class="star-btn {% if is_saved %}saved{% endif %}">
+                {% if is_saved %}⭐{% else %}☆{% endif %}
+            </button>
+        </form>
+
+        <div class="flip-inner" id="flipInner" onclick="flipCard()">
+
+            <!-- FRONT -->
+            <div class="flip-front">
+                <div class="kanji">{{ kanji.character }}</div>
+            </div>
+
+            <!-- BACK -->
+            <div class="flip-back">
+                <div class="reading">{{ kanji.reading }}</div>
+                <div class="meaning">{{ kanji.meaning }}</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="action-buttons">
+        {% if can_go_back %}
+        <a href="?level={{ level }}&action=back" class="btn back">戻る</a>
+    {% endif %}
+
+    <span class="position">{{ position }}</span> 
+        
+        {% if can_go_next %}
+        <a href="?level={{ level }}&action=next" class="btn next">次</a>
+    {% endif %}
+    </div>
+
+    <div class="quiz-buttons">
+    <a href="{% url 'kanji_quiz' kanji.level 'meaning' %}" class="quiz-btn meaning-btn">
+        🎯 Start Meaning Quiz
+    </a>
+
+    <a href="{% url 'kanji_quiz' kanji.level 'reading' %}" class="quiz-btn reading-btn">
+        🎯 Start Reading Quiz
+    </a>
+</div>
+
+
+</div>
+{% endif %}
+
+
+<script>
+function flipCard() {
+    document.getElementById("flipInner").classList.toggle("flipped");
+}
+</script>
+
+{% endblock %}

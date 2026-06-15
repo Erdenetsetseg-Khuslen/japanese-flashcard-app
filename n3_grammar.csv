@@ -1,0 +1,42 @@
+﻿pattern,meaning_jp,meaning_en,example_jp,example_en,structure,notes,level
+〜ように,〜の もくてきで,so that,忘れないようにメモします。,I write notes so I don't forget.,Verb dictionary + ように,Used for purpose or result,N3
+〜ために,〜の もくてきで,for the purpose of,日本へ行くために貯金しています。,I save money to go to Japan.,Verb dictionary + ために,Clear intention/purpose,N3
+〜ような,〜に にている,like/as,彼は先生のような人です。,He is like a teacher.,Noun + のような,Similarity,N3
+〜ようだ,〜らしい,seems like,彼は来ないようです。,It seems he won’t come.,Plain form + ようだ,Guess based on evidence,N3
+〜らしい,〜そう だ,I heard/seems like,彼は学生らしいです。,He seems to be a student.,Plain form + らしい,Hearsay or typical trait,N3
+〜みたい,〜の ようだ,like/seems,雨みたいですね。,Looks like rain.,Noun/Plain + みたい,Informal ようだ,N3
+〜ことにする,じぶんで きめる,decide to,毎日運動することにしました。,I decided to exercise daily.,Verb dictionary + ことにする,Personal decision,N3
+〜ことになる,きまる,it has been decided,日本へ行くことになりました。,It has been decided I'll go to Japan.,Verb dictionary + ことになる,External decision,N3
+〜ていく,へんか が つづく,continue/change going forward,日本語が上手になっていきます。,My Japanese will keep improving.,Verbて + いく,Change over time,N3
+〜てくる,へんか が はじまる,change up to now,寒くなってきました。,It has started getting cold.,Verbて + くる,Change toward present,N3
+〜ばかり,〜だけ している,only/just,遊んでばかりいます。,He does nothing but play.,Verbて + ばかり,Negative nuance often,N3
+〜ところだ,ちょうど の じかん,just about to/just did,今食べるところです。,I’m about to eat.,Verb dictionary/た + ところ,Timing of action,N3
+〜たばかり,〜した ばかり,just did,日本に来たばかりです。,I just came to Japan.,Verbた + ばかり,Recent action,N3
+〜はじめる,〜しはじめる,start doing,雨が降りはじめました。,It started raining.,Verb stem + はじめる,Beginning action,N3
+〜おわる,〜しおわる,finish doing,読み終わりました。,I finished reading.,Verb stem + 終わる,Completion,N3
+〜続ける,〜つづける,continue doing,勉強し続けています。,I keep studying.,Verb stem + 続ける,Continuous action,N3
+〜すぎる,〜より おおい,too much,飲みすぎました。,I drank too much.,Verb stem + すぎる,Excess,N3
+〜やすい,かんたん,easy to,この本は読みやすい。,This book is easy to read.,Verb stem + やすい,Ease of action,N3
+〜にくい,むずかしい,difficult to,この字は書きにくい。,This character is hard to write.,Verb stem + にくい,Difficulty,N3
+〜ようになる,へんか する,come to be,日本語が話せるようになった。,I became able to speak Japanese.,Verb dictionary + ようになる,Change in ability,N3
+〜ようにする,こころがける,make effort to,忘れないようにします。,I try not to forget.,Verb dictionary + ようにする,Habitual effort,N3
+〜たがる,〜したい ようす,wants to (others),弟はゲームをしたがっています。,My brother wants to play games.,Verb stem + たがる,Third person desire,N3
+〜られる(うけみ),うけみ,passive,先生にほめられました。,I was praised by teacher.,Passive form,Used for passive situations,N3
+〜させる,しえき,make/let do,母は私に勉強させます。,My mom makes me study.,Causative form,Cause someone to act,N3
+〜させられる,しえきうけみ,be made to,野菜を食べさせられた。,I was made to eat vegetables.,Causative passive,Difficult but common,N3
+〜ばかりでなく,〜だけ でなく,not only but also,彼は英語ばかりでなく中国語も話せる。,He speaks not only English but Chinese.,Noun + ばかりでなく,Formal expression,N3
+〜だけでなく,〜も,not only but also,彼は歌うだけでなく踊れる。,He can not only sing but dance.,Plain + だけでなく,Adds extra info,N3
+〜ながらも,〜けれど も,although,小さいながらも便利な町です。,Though small it's convenient.,Verb stem + ながらも,Contrast,N3
+〜のに,〜けれど も,although,雨なのに出かけます。,Even though it's raining I go out.,Clause + のに,Unexpected result,N3
+〜にもかかわらず,それでも,in spite of,病気にもかかわらず働いた。,He worked despite illness.,Noun + にもかかわらず,Formal contrast,N3
+〜おかげで,よい りゆう,thanks to,友達のおかげで合格した。,I passed thanks to my friend.,Noun + のおかげで,Positive reason,N3
+〜せいで,わるい りゆう,because of (bad),雨のせいで試合が中止。,Game canceled because of rain.,Noun + のせいで,Negative cause,N3
+〜ために(りゆう),りゆう,because of,事故のために電車が遅れた。,Train delayed due to accident.,Noun + のために,Formal reason,N3
+〜について,〜に かんして,about,日本文化について話す。,Talk about Japanese culture.,Noun + について,Topic,N3
+〜に対して,〜に むけて,toward,先生は学生に対して優しい。,Teacher is kind toward students.,Noun + に対して,Direction/attitude,N3
+〜によって,〜で,by means of,人によって考え方が違う。,Thinking differs by person.,Noun + によって,Depends on,N3
+〜にとって,〜の ばあい,in terms of,私にとって家族は大切です。,Family is important to me.,Noun + にとって,Personal viewpoint,N3
+〜わけだ,なるほど,that means,遅いわけだ。,No wonder it's late.,Clause + わけだ,Logical conclusion,N3
+〜わけではない,そう ではない,not necessarily,嫌いなわけではない。,It's not that I dislike it.,Clause + わけではない,Partial negation,N3
+〜はずだ,よてい どおり,supposed to,彼は来るはずだ。,He should come.,Plain + はずだ,Expectation,N3
+〜はずがない,ぜったい ない,cannot be,そんなはずがない。,That can't be.,Plain + はずがない,Strong denial,N3

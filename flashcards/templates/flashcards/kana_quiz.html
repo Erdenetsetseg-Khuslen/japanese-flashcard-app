@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Kana Quiz{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'flashcards/css/kana.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<h2>Kana Listening Quiz 🎧</h2>
+
+<div class="score-box">
+    ⭐ Score: {{ score }} / {{ total }}
+</div>
+
+<button class="listen-btn" onclick="playSound('{{ question.1 }}')">
+    🔊 Listen
+</button>
+
+<div class="quiz-options">
+    {% for kana, reading in choices %}
+    <div class="quiz-btn"
+        onclick="checkAnswer('{{ reading }}','{{ question.1 }}', this)">
+        {{ kana }}
+    </div>
+    {% endfor %}
+</div>
+
+<p id="result" class="result-text"></p>
+
+<div id="effect-layer"></div>
+<audio id="audioPlayer"></audio>
+
+<script>
+function playSound(name){
+    let audio=document.getElementById("audioPlayer");
+    audio.src="{% static 'flashcards/sounds/' %}"+name+".mp3";
+    audio.play();
+}
+
+function checkAnswer(selected, correct) {
+    let result = document.getElementById("result");
+
+    // нийт асуулт +1
+    fetch("/flashcards/update-score/?correct=" + (selected === correct));
+
+    if (selected === correct) {
+        result.innerHTML = "🎉 Correct!";
+        result.className = "correct";
+        launchConfetti();  // 🎆 animation
+    } else {
+        result.innerHTML = "❌ Wrong! " + correct;
+        result.className = "wrong";
+        shakeScreen();     // ❌ effect
+    }
+
+    setTimeout(() => {
+        location.reload();  // дараагийн асуулт
+    }, 1200);
+}
+
+function launchConfetti(){
+    let layer=document.getElementById("effect-layer")
+    for(let i=0;i<40;i++){
+        let c=document.createElement("div")
+        c.className="confetti"
+        c.style.setProperty("--h",Math.random()*360)
+        c.style.setProperty("--x",(Math.random()*600-300)+"px")
+        c.style.setProperty("--y",(Math.random()*500-200)+"px")
+        layer.appendChild(c)
+        setTimeout(()=>c.remove(),1000)
+    }
+}
+
+function shakeScreen(){
+    document.body.classList.add("shake");
+    setTimeout(()=>document.body.classList.remove("shake"),500);
+}
+</script>
+
+{% endblock %}

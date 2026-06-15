@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{% block title %}Daily Conversation{% endblock %}
+
+{% block extra_css %}
+<style>
+
+.page-wrap{
+    text-align:center;
+    padding-top:40px;
+}
+
+/* CARD */
+.card{
+    width:350px;
+    margin:60px auto;
+    position:relative;
+    background:white;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    padding:30px 20px;
+}
+
+/* TEXT */
+.jp{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.hira{
+    color:gray;
+    margin-top:8px;
+}
+
+.meaning{
+    font-size:20px;
+    margin-top:18px;
+    color:#555;
+}
+
+/* Navigation button */
+.btn{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    background:#6366f1;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+}
+
+/* ⭐ Star */
+.star-btn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size:26px;
+    text-decoration:none;
+}
+
+.gray{
+    color:#ccc;
+}
+
+.yellow{
+    color:#facc15;
+}
+
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="page-wrap">
+
+<h2>Daily Conversation</h2>
+
+<div class="card">
+
+    <!-- ⭐ STAR -->
+    <a href="{% url 'toggle_save_conversation' conv.id %}" 
+        class="star-btn {% if is_saved %}yellow{% else %}gray{% endif %}">
+        ★
+    </a>
+
+    <!-- CONTENT -->
+    <div class="jp">{{ conv.japanese }}</div>
+    <div class="hira">{{ conv.hiragana }}</div>
+    <div class="meaning">{{ conv.meaning }}</div>
+
+</div>
+
+<!-- Navigation -->
+<div>
+{% if prev %}
+<a class="btn" href="{% url 'conversation_flashcard' prev.id %}">⬅ 戻る</a>
+{% endif %}
+
+{% if next %}
+<a class="btn" href="{% url 'conversation_flashcard' next.id %}">次 ➡</a>
+{% endif %}
+</div>
+
+</div>
+
+{% endblock %}

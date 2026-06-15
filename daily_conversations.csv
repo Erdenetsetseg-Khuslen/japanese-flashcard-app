@@ -1,0 +1,52 @@
+﻿category,japanese,hiragana,meaning
+greeting,こんにちは,こんにちは,Hello
+greeting,おはようございます,おはようございます,Good morning
+greeting,こんばんは,こんばんは,Good evening
+greeting,はじめまして,はじめまして,Nice to meet you
+greeting,よろしくお願いします,よろしくおねがいします,Please treat me well
+daily,元気ですか？,げんきですか？,How are you?
+daily,元気です,げんきです,I am fine
+daily,ちょっと疲れました,ちょっとつかれました,I am a little tired
+daily,今日は忙しいですか？,きょうはいそがしいですか？,Are you busy today?
+daily,はい、忙しいです,はい、いそがしいです,Yes I am busy
+daily,いいえ、暇です,いいえ、ひまです,No I am free
+daily,今何をしていますか？,いまなにをしていますか？,What are you doing now?
+daily,勉強しています,べんきょうしています,I am studying
+daily,仕事をしています,しごとをしています,I am working
+daily,どこに行きますか？,どこにいきますか？,Where are you going?
+daily,学校に行きます,がっこうにいきます,I am going to school
+daily,家に帰ります,いえにかえります,I am going home
+daily,一緒に行きませんか？,いっしょにいきませんか？,Shall we go together?
+daily,ちょっと待ってください,ちょっとまってください,Please wait a moment
+daily,もう一度言ってください,もういちどいってください,Please say it again
+daily,分かりました,わかりました,I understand
+daily,分かりません,わかりません,I don't understand
+daily,大丈夫ですか？,だいじょうぶですか？,Are you okay?
+daily,大丈夫です,だいじょうぶです,I'm okay
+daily,どうしましたか？,どうしましたか？,What happened?
+shopping,これはいくらですか？,これはいくらですか？,How much is this?
+shopping,ちょっと高いですね,ちょっとたかいですね,It's a bit expensive
+shopping,安いですね,やすいですね,It's cheap
+shopping,これをください,これをください,I'll take this please
+shopping,カードで払えますか？,カードではらえますか？,Can I pay by card?
+restaurant,メニューをください,メニューをください,Please give me the menu
+restaurant,おすすめは何ですか？,おすすめはなんですか？,What do you recommend?
+restaurant,水をください,みずをください,Water please
+restaurant,とてもおいしいです,とてもおいしいです,It's very delicious
+restaurant,お腹がいっぱいです,おなかがいっぱいです,I'm full
+restaurant,ごちそうさまでした,ごちそうさまでした,Thank you for the meal
+transport,駅はどこですか？,えきはどこですか？,Where is the station?
+transport,どうやって行きますか？,どうやっていきますか？,How do I get there?
+transport,ここで降ります,ここでおります,I get off here
+transport,何時に出発しますか？,なんじにしゅっぱつしますか？,What time does it leave?
+help,手伝ってください,てつだってください,Please help me
+help,道に迷いました,みちにまよいました,I am lost
+help,トイレはどこですか？,トイレはどこですか？,Where is the restroom?
+help,英語を話せますか？,えいごをはなせますか？,Can you speak English?
+help,写真を撮ってもいいですか？,しゃしんをとってもいいですか？,May I take a photo?
+phone,後で電話します,あとででんわします,I will call later
+phone,今話せますか？,いまはなせますか？,Can you talk now?
+phone,メッセージを送りました,メッセージをおくりました,I sent a message
+farewell,また会いましょう,またあいましょう,See you again
+farewell,気をつけてください,きをつけてください,Take care
+farewell,さようなら,さようなら,Goodbye

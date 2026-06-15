@@ -1,0 +1,290 @@
+﻿character,reading,meaning,level
+研,とぐ / ケン,"polish, research",N3
+究,きわめる / キュウ,"research, investigate",N3
+経,へる / ケイ,"pass, manage",N3
+験,— / ケン,"experience, test",N3
+簡,— / カン,simple,N3
+難,むずかしい / ナン,difficult,N3
+易,やさしい / イ,easy,N3
+特,— / トク,special,N3
+以,— / イ,"since, by means of",N3
+内,うち / ナイ,inside,N3
+込,こむ / —,"crowded, into",N3
+辺,あたり / ヘン,"area, around",N3
+通,とおる・かよう / ツウ,"pass, commute",N3
+過,すぎる / カ,"exceed, pass",N3
+切,きる / セツ,cut,N3
+換,かえる / カン,exchange,N3
+代,かわる / ダイ,"substitute, generation",N3
+支,ささえる / シ,"support, pay",N3
+払,はらう / フツ,pay,N3
+受,うける / ジュ,receive,N3
+付,つける / フ,"add, attach",N3
+注,そそぐ / チュウ,"pour, pay attention",N3
+意,— / イ,"intention, mind",N3
+味,あじ / ミ,"taste, meaning",N3
+品,しな / ヒン,"goods, item",N3
+質,— / シツ,quality,N3
+価,— / カ,"value, price",N3
+値,ね / チ,"value, price",N3
+増,ふえる・ふやす / ゾウ,increase,N3
+減,へる・へらす / ゲン,decrease,N3
+続,つづく・つづける / ゾク,continue,N3
+比,くらべる / ヒ,compare,N3
+反,そる・そらす / ハン,"oppose,反対",N3
+対,— / タイ,"opposite, against",N3
+告,つげる / コク,inform,N3
+伝,つたえる・つたわる / デン,convey,N3
+例,たとえ / レイ,example,N3
+状,— / ジョウ,"condition, state",N3
+況,— / キョウ,situation,N3
+報,むくいる / ホウ,"report, reward",N3
+放,はなす・はなつ / ホウ,release,N3
+確,たしか / カク,certain,N3
+認,みとめる / ニン,recognize,N3
+提,さげる / テイ,"present,提案",N3
+供,そなえる / キョウ,"offer, provide",N3
+参,まいる / サン,"participate, go",N3
+観,みる / カン,"view, observe",N3
+際,きわ / サイ,"border, occasion",N3
+含,ふくむ / ガン,include,N3
+迎,むかえる / ゲイ,welcome,N3
+攻,せめる / コウ,attack,N3
+防,ふせぐ / ボウ,"prevent, defend",N3
+守,まもる / シュ,protect,N3
+備,そなえる / ビ,prepare,N3
+育,そだつ・そだてる / イク,"raise, grow",N3
+伸,のびる・のばす / シン,"extend, grow",N3
+縮,ちぢむ・ちぢめる / シュク,shrink,N3
+片,かた / ヘン,"one side,片方",N3
+割,わる・われる / カツ,"break, divide",N3
+払,はらう / フツ,pay,N3
+払,はらう / フツ,pay,N3
+届,とどく・とどける / トド,"reach, deliver",N3
+離,はなれる・はなす / リ,separate,N3
+拾,ひろう / シュウ,pick up,N3
+落,おちる・おとす / ラク,"fall, drop",N3
+残,のこる・のこす / ザン,remain,N3
+迷,まよう / メイ,"get lost,迷う",N3
+慣,なれる / カン,get used to,N3
+驚,おどろく / キョウ,be surprised,N3
+疲,つかれる / ヒ,tired,N3
+困,こまる / コン,be troubled,N3
+悩,なやむ / ノウ,worry,N3
+悲,かなしい / ヒ,sad,N3
+喜,よろこぶ / キ,"joy, be glad",N3
+怒,おこる / ド,angry,N3
+恐,おそれる / キョウ,fear,N3
+恥,はじる / チ,shame,N3
+念,— / ネン,"thought,念",N3
+願,ねがう / ガン,wish,N3
+望,のぞむ / ボウ,hope,N3
+祈,いのる / キ,pray,N3
+信,しんじる / シン,believe,N3
+疑,うたがう / ギ,doubt,N3
+約,— / ヤク,promise,N3
+束,たば / ソク,"bundle,束",N3
+保,たもつ / ホ,"protect, keep",N3
+護,まもる / ゴ,protect,N3
+救,すくう / キュウ,save,N3
+助,たすける / ジョ,help,N3
+害,— / ガイ,harm,N3
+危,あぶない / キ,dangerous,N3
+険,けわしい / ケン,"steep, dangerous",N3
+被,こうむる / ヒ,suffer,N3
+殺,ころす / サツ,kill,N3
+深,ふかい / シン,deep,N3
+浅,あさい / セン,shallow,N3
+厚,あつい / コウ,thick,N3
+薄,うすい / ハク,thin,N3
+固,かたい / コ,"firm, hard",N3
+柔,やわらかい / ジュウ,soft,N3
+濃,こい / ノウ,"thick,浓い",N3
+細,ほそい / サイ,"thin, narrow",N3
+太,ふとい / タイ,"thick, fat",N3
+丸,まるい / ガン,round,N3
+角,かど / カク,"corner, angle",N3
+直,なおす・なおる / チョク,"fix,直",N3
+曲,まがる・まげる / キョク,"bend,曲がる",N3
+折,おる・おれる / セツ,"break, fold",N3
+焼,やく・やける / ショウ,"burn, bake",N3
+煮,にる / シャク,boil,N3
+凍,こおる・こごえる / トウ,freeze,N3
+溶,とける・とかす / ヨウ,melt,N3
+流,ながれる・ながす / リュウ,flow,N3
+沈,しずむ / チン,sink,N3
+浮,うく・うかぶ / フ,floating,N3
+倒,たおれる・たおす / トウ,"fall, knock down",N3
+落,おちる・おとす / ラク,"fall, drop",N3
+逃,にげる・にがす / トウ,escape,N3
+隠,かくす・かくれる / イン,hide,N3
+隠,かくす・かくれる / イン,hide,N3
+現,あらわれる・あらわす / ゲン,appear,N3
+消,きえる・けす / ショウ,"disappear, erase",N3
+残,のこる・のこす / ザン,remain,N3
+加,くわえる・くわわる / カ,add,N3
+減,へる・へらす / ゲン,decrease,N3
+混,まじる・まぜる / コン,mix,N3
+乱,みだれる・みだす / ラン,disorder,N3
+続,つづく・つづける / ゾク,continue,N3
+替,かえる・かわる / タイ,replace,N3
+移,うつる・うつす / イ,"move, transfer",N3
+変,かわる・かえる / ヘン,change,N3
+進,すすむ・すすめる / シン,advance,N3
+退,しりぞく・しりぞける / タイ,retreat,N3
+選,えらぶ / セン,choose,N3
+決,きめる / ケツ,decide,N3
+任,まかせる / ニン,"leave to,任せる",N3
+務,つとめる / ム,"work, duty",N3
+続,つづく・つづける / ゾク,continue,N3
+働,はたらく,work,N3
+雇,やとう / コ,employ,N3
+勤,つとめる / キン,work diligently,N3
+責,せめる / セキ,"blame, responsibility",N3
+任,まかせる / ニン,"responsibility, entrust",N3
+務,つとめる / ム,"duty, work",N3
+職,— / ショク,"job, occupation",N3
+業,わざ / ギョウ,"work, business",N3
+役,— / ヤク,"role, duty",N3
+規,— / キ,"rule, regulation",N3
+則,— / ソク,"rule, law",N3
+限,かぎる / ゲン,limit,N3
+禁,— / キン,"forbid,禁止",N3
+許,ゆるす / キョ,"permit, forgive",N3
+可,— / カ,"possible, allowed",N3
+必,かならず / ヒツ,necessary,N3
+要,いる / ヨウ,"need, important",N3
+違,ちがう・ちがえる / イ,"different,違う",N3
+従,したがう / ジュウ,"follow, obey",N3
+守,まもる / シュ,"protect, obey",N3
+徹,— / テツ,thorough,N3
+完,— / カン,complete,N3
+成,なる・なす / セイ,"become, achieve",N3
+達,たっする / タツ,"achieve, reach",N3
+続,つづく・つづける / ゾク,continue,N3
+保,たもつ / ホ,"keep, preserve",N3
+維,— / イ,maintain,N3
+管,くだ / カン,"control, manage",N3
+理,— / リ,"reason, manage",N3
+営,いとなむ / エイ,run (business),N3
+営,いとなむ / エイ,operate,N3
+営,いとなむ / エイ,manage,N3
+経,へる / ケイ,"pass, manage",N3
+済,すむ・すます / サイ,"finish, settle",N3
+治,なおる・なおす / チ,"govern, cure",N3
+統,— / トウ,"unite,統一",N3
+支,ささえる / シ,support,N3
+援,— / エン,"support,援助",N3
+援,— / エン,aid,N3
+給,たまう / キュウ,"supply, give",N3
+供,そなえる / キョウ,"offer, provide",N3
+求,もとめる / キュウ,"request, seek",N3
+申,もうす / シン,say (humble),N3
+請,こいねがう / セイ,request,N3
+頼,たのむ・たよる / ライ,"rely, request",N3
+依,— / イ,depend on,N3
+任,まかせる / ニン,entrust,N3
+約,— / ヤク,promise,N3
+束,たば / ソク,bundle,N3
+納,おさめる・おさまる / ノウ,"pay, store",N3
+収,おさめる・おさまる / シュウ,"receive, collect",N3
+貯,たくわえる / チョ,"save, store",N3
+費,ついやす / ヒ,"spend, cost",N3
+判,わかる / ハン,"judge, decide",N3
+判,わかれる / ハン,"divide, distinguish",N3
+断,ことわる / ダン,"refuse,断る",N3
+断,たつ / ダン,cut off,N3
+断,きる / ダン,"cut, decide",N3
+断,ことわる / ダン,decline,N3
+裁,さばく / サイ,"judge,裁く",N3
+裁,たつ / サイ,"cut,裁つ",N3
+裁,さばく / サイ,decide,N3
+証,あかし / ショウ,"proof, evidence",N3
+証,あかす / ショウ,prove,N3
+認,みとめる / ニン,recognize,N3
+確,たしか / カク,certain,N3
+保証,ほしょう / ホショウ,guarantee,N3
+責,せめる / セキ,"blame, responsibility",N3
+義,— / ギ,"duty,義務",N3
+務,つとめる / ム,"duty, work",N3
+義務,ぎむ / —,obligation,N3
+権,— / ケン,"right, authority",N3
+利,— / リ,"profit, advantage",N3
+益,— / エキ,"benefit, profit",N3
+損,そこなう / ソン,"loss, damage",N3
+損,する / ソン,lose,N3
+得,える・うる / トク,"gain, obtain",N3
+与,あたえる / ヨ,give,N3
+与,あずかる / ヨ,participate,N3
+受,うける / ジュ,receive,N3
+授,さずける / ジュ,"grant,授ける",N3
+払,はらう / フツ,pay,N3
+払,はらい / フツ,payment,N3
+免,まぬかれる / メン,"exempt, avoid",N3
+免,まぬかす / メン,exempt,N3
+責任,せきにん / —,responsibility,N3
+罰,ばつ / バツ,punishment,N3
+罪,つみ / ザイ,"crime, sin",N3
+捕,とらえる / ホ,"catch, arrest",N3
+逮,— / タイ,"arrest, detain",N3
+追,おう / ツイ,chase,N3
+逃,にげる / トウ,escape,N3
+逃,のがす / トウ,let escape,N3
+犯,おかす / ハン,commit (crime),N3
+危,あぶない / キ,dangerous,N3
+険,けわしい / ケン,"steep, dangerous",N3
+被,こうむる / ヒ,suffer,N3
+守,まもる / シュ,protect,N3
+警,— / ケイ,"warn, police",N3
+察,— / サツ,"inspect,察知",N3
+禁,— / キン,forbid,N3
+規,— / キ,rule,N3
+則,— / ソク,"law, rule",N3
+令,— / レイ,"order, command",N3
+命,いのち / メイ,"life,命令",N3
+境,さかい / キョウ,"border, boundary",N3
+域,— / イキ,"area, region",N3
+際,きわ / サイ,"occasion, edge",N3
+周,まわり / シュウ,"around, circumference",N3
+囲,かこむ / イ,enclose,N3
+含,ふくむ / ガン,include,N3
+含,ふくめる / ガン,include (trans.),N3
+除,のぞく / ジョ,"remove, exclude",N3
+除,とりのぞく / ジョ,remove,N3
+備,そなえる / ビ,prepare,N3
+整,ととのえる・ととのう / セイ,"arrange, adjust",N3
+整,ととのえる / セイ,organize,N3
+揃,そろう・そろえる / ソロ,"uniform, gather",N3
+列,— / レツ,"row, line",N3
+並,ならぶ・ならべる / ヘイ,line up,N3
+順,— / ジュン,"order,順番",N3
+番,— / バン,"number, turn",N3
+次,つぎ / ジ,next,N3
+項,— / コウ,"item, paragraph",N3
+類,たぐい / ルイ,"type, kind",N3
+種,たね / シュ,"seed, kind",N3
+別,わかれる / ベツ,separate,N3
+各,— / カク,each,N3
+共,とも / キョウ,"together, common",N3
+全,すべて / ゼン,all,N3
+両,りょう / リョウ,both,N3
+半,なかば / ハン,half,N3
+倍,— / バイ,double,N3
+増,ふえる・ふやす / ゾウ,increase,N3
+減,へる・へらす / ゲン,decrease,N3
+余,あまる・あます / ヨ,"excess, remain",N3
+欠,かける・かく / ケツ,"lack,欠ける",N3
+不足,ふそく / —,shortage,N3
+満,みちる・みたす / マン,"full, satisfy",N3
+限界,げんかい / —,limit,N3
+達成,たっせい / —,achievement,N3
+完成,かんせい / —,completion,N3
+成功,せいこう / —,success,N3
+失敗,しっぱい / —,failure,N3
+結果,けっか / —,result,N3
+影響,えいきょう / —,influence,N3
+原因,げんいん / —,cause,N3
+理由,りゆう / —,reason,N3
+目的,もくてき / —,purpose,N3
+方法,ほうほう / —,method,N3
+条件,じょうけん / —,condition,N3
